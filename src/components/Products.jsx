@@ -4,13 +4,13 @@ import ProductCard from "./ProductCard";
 const Products = () => {
     
     const isLoading = false;
-    const errorMessage = "Error fetching products. Please try again later.";
+    const errorMessage = "";
     const products = [{
         productId: 652,
         productName: "Iphone Xs max",
         image: "https://placehold.co/600x400",
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
-        quantity: 0,
+        quantity: 1,
         price: 1450.0,
         discount: 10.0,
         specialPrice: 1305.0,
